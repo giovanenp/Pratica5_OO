@@ -8,6 +8,6 @@ public class Quadrado extends PoligonoRetangular{
 
   @Override
   public float calcularArea() {    
-    return getTamLados() * getNumLados();
+    return getTamLados() * getTamLados();
   }
 }

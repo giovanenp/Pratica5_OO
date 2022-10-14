@@ -8,6 +8,8 @@ public class Main {
     PoligonoRetangular pQuadrado = new Quadrado(4, 4);
 
     JOptionPane.showMessageDialog(null, pTriangulo.calcularArea(), "Area do Triangulo", 0);
+    JOptionPane.showMessageDialog(null, pQuadrado.calcularPerimetro(), "Perimetro do quadrado", 0);    
     JOptionPane.showMessageDialog(null, pQuadrado.calcularArea(), "Area do quadrado", 0);    
+    JOptionPane.showMessageDialog(null, pQuadrado.calcularPerimetro(), "Perimetro do quadrado", 0);    
   }
 }

@@ -26,7 +26,7 @@ public abstract class PoligonoRetangular {
   }
   
   public float calcularPerimetro() {
-    return 0;
+    return this.tamLados * this.numLados;
   }
 
   public abstract float calcularArea();
